@@ -140,3 +140,86 @@
     margin: 50px;
     text-align: center;
 }
+/* Section Three */
+.section-three{
+    height: 700px;
+    width: 1320px;
+    margin: 0 auto;
+    margin-top: 100px;
+    position: relative;
+}
+.holiday-text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1068px;
+    height: 260px;
+    margin: 0 auto;
+    text-align: center;
+}
+.holiday-text-container h5{
+    color: rgb(7, 2, 17);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+}
+.holiday-text-container h1{
+    font-family: Merriweather;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 61px;
+}
+.holiday-text-container p{
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+}
+.solid-color{
+    width: 1320px;
+    height: 229px;
+    background-color: red;
+    border-radius: 10px;
+    position: absolute;
+    top: 67%;
+}
+.gift-box{
+    width: 674.82px;
+    height: 377.96px;
+    position: relative;
+    z-index: 1;
+    left: 3%;
+    display:flex ;
+}
+
+.gift-box img{
+    height: 100%;
+    width: 100%;
+}
+.women-container{
+    height: 300px;
+    width: 500px;
+    position: relative;
+    bottom: 55%;
+    left: 60%;
+}
+.women-container img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+}
+.off{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 30%;
+    left: 50%;
+    z-index: 1;
+}
+.off img{
+    height: 100%;
+    width: 100%;
+}
